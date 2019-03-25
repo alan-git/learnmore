@@ -1,0 +1,15 @@
+.heimu,.heimu a,a .heimu {
+    border: none;
+    background-color: #252525!important;
+    color: #252525!important;
+    cursor: haelp
+}
+ 
+.heimu:hover,.heimu:active {
+    color: #fff!important;
+}
+ 
+.heimu a:hover,a:hover .heimu {
+    border: none;
+    cursor: pointer
+}
