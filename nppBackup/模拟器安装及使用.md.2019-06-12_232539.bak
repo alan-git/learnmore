@@ -1,0 +1,104 @@
+## 软件介绍
+凤凰模拟器app是一款游戏模拟工具，由德国人开发，这款软件可以让你通过安装相关软件，完美模拟飞行模式，开车已经不刺激了，翱翔天空才是每一个人的梦想，凤凰模拟器就是带你翱翔的旋风。  
+本文所对应版本为V4.0.m。
+## 相关软件下载
+链接：<a href=https://pan.baidu.com/s/1n_QsZoIzIwKFMt6ou7vnZw  target=_blank>https://pan.baidu.com/s/1n_QsZoIzIwKFMt6ou7vnZw</a> 提取码：us80  
+或扫码下载：  
+<center>
+![二维码](./pic/Soft-download.png "手机百度扫码下载")
+</center>
+## 软件安装及调试
+### 1. WinXP准备工作
+<p>Tips：*win7及以上版本可跳过此步骤*。</p>
+双击下载文件中的`NetFx20SP2_x86.exe`，
+<center>
+![](./pic/001.png "NetFx20SP2_x86")
+</center> 
+勾选“我已阅读并接受许可”后点击安装；
+<center>
+![](./pic/002.png "许可协议")
+</center> 
+安装中，等待一段时间：
+<center>
+![](./pic/003.png "正在安装")
+</center> 
+安装完成，点击退出即可：
+<center>
+![](./pic/004.png "安装完成")
+</center> 
+### 2. 安装DirectX修复工具
+在下载文件夹中找到`DirectXRepair_v3.7.zip`，右键单击，在WinXP/Win7中单击`全部提取···`，在Win10中为`全部解压缩···`；
+<center>
+![](./pic/006.png "WinXP")<br>
+![](./pic/005.png "Win10")
+</center> 
+根据提示，提取出名为`DirectXRepair_v3.7`的文件夹，并打开；<br>
+WinXP/Win7双击`DirectX Repair.exe`，Win8/Win10双击`DirectX_Repair_win8_win10.exe`；
+<center>
+![](./pic/007.png "根据具体的操作系统版本进行选择")
+</center> 
+点击检测并修复：
+<center>
+![](./pic/008.png "软件界面")
+</center> 
+等待显示如下提示点击确认后退出即可；
+<center>
+![](./pic/009.png "修复完成")
+</center> 
+
+### 3. 模拟器安装
+完成上述操作后，在下载文件夹中找到`PhoenixRC.zip`，进行与上一步相同的“提取/解压缩”操作，根据提示，提取出名为`PhoenixRC`的文件夹；
+<center>
+![](./pic/010.png "PhoenixRC.zip")
+</center>
+若需要修改模拟器安装位置，在文件夹右键单击，选择剪切，然后打开平时常用的软件安装目录，点击粘贴；
+<center>
+![](./pic/011.png "移动文件位置")
+</center>
+打开模拟器文件夹找到`PhoenixRC.exe`，双击即可开始使用：
+<center>
+![](./pic/012.png "运行程序")
+</center>
+打可在文件`PhoenixRC.exe`处右键单击，选中`发送到`后点击`桌面快捷方式`，下次即可在桌面上双击图标运行了。
+<center>
+![](./pic/013.png "生成快捷方式")
+</center>
+
+### 4. 模拟器第一次使用调试
+- 配置新遥控器：
+    1. 一直点“下一步”直至“中立位置”界面；
+    1. 油门杆置于中立稍靠下位置点击下一步，按要求用摇杆画圆，并确保摇杆触及四角，划两到三圈后油门回中；
+    1. 继续一直点“下一步”直至“中立位置”界面，确保油门处于中立位置，点击下一步；
+    1. 引擎推至最高位置：右手；
+    1. 桨距推至最高位置：右手；
+    1. 方向舵推至最右位置：左手；
+    1. 升降舵推至最高位置：左手；
+    1. 副翼舵推至最右位置：右手；
+    1. 忽略之后步骤一直点击直至完成。  
+
+<iframe src="https://player.bilibili.com/player.html?aid=46811793&cid=81995171&page=1" width="100%" height="540px" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+点击链接访问：[https://www.bilibili.com/video/av46811793](https://www.bilibili.com/video/av46811793)
+
+### 5. 选择模型、场地等
+1. 选择模型---更换模型---H……---E……---Align T-Rex 500；
+1. 选择场地---更换场地---Flying Field；
+1. 查看信息---屏幕显示---模拟速度---调节至80%；
+1. 训练模式---悬停训练：
+    - 下方练习模式：仅副翼--仅升降--所有控制通道；
+  
+|  操纵杆名称  | 旋翼机别名  |  在旋翼机中的特性   |
+| :----------: | :--------:  | :-----------------: |
+|     引擎     |      /      |  电机 / 发动机转速  |
+|     桨距     |      /      |      直升机桨距     |
+|    副翼舵    | 横滚 / 滚转 |    左右方向移动     |
+|    升降舵    |    俯仰     |    前后方向移动     |
+|    方向舵    | 偏航 / 转向 |   转变航向 / 转向   |
+
+<iframe src="https://player.bilibili.com/player.html?aid=46833961&cid=82030986&page=1" width="100%" height="540px" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+点击链接访问：[https://www.bilibili.com/video/av46833961](https://www.bilibili.com/video/av46833961)
+
+### 6. 校准遥控器
+<iframe src="https://player.bilibili.com/player.html?aid=46835341&cid=82035695&page=1" width="100%" height="540px" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+点击链接访问：[https://www.bilibili.com/video/av46835341](https://www.bilibili.com/video/av46835341)
+
+The end.

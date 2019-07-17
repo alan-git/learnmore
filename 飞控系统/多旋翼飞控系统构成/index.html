@@ -32,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\uff0c\u3002]+">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.2">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
     
     
       
@@ -40,9 +40,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.982221ab.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.224b79ff.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
       
       
         
@@ -51,12 +51,12 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
     
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
@@ -108,7 +108,9 @@
               今天学什么
             </span>
             <span class="md-header-nav__topic">
-              多旋翼飞控系统构成
+              
+                多旋翼飞控系统构成
+              
             </span>
           
         </div>
@@ -308,16 +310,16 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" title="主控单元" class="md-nav__link">
-    主控单元
+  <a href="#_2" title="主控" class="md-nav__link">
+    主控
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#imu" title="IMU（惯性测量单元）" class="md-nav__link">
-    IMU（惯性测量单元）
+  <a href="#imu" title="IMU" class="md-nav__link">
+    IMU
   </a>
   
 </li>
@@ -363,15 +365,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#led" title="LED 指示灯" class="md-nav__link">
-    LED 指示灯
+  <a href="#led" title="LED指示灯" class="md-nav__link">
+    LED指示灯
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pmu" title="PMU 电源管理" class="md-nav__link">
-    PMU 电源管理
+  <a href="#pmu" title="PMU电源管理" class="md-nav__link">
+    PMU电源管理
   </a>
   
 </li>
@@ -593,16 +595,16 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" title="主控单元" class="md-nav__link">
-    主控单元
+  <a href="#_2" title="主控" class="md-nav__link">
+    主控
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#imu" title="IMU（惯性测量单元）" class="md-nav__link">
-    IMU（惯性测量单元）
+  <a href="#imu" title="IMU" class="md-nav__link">
+    IMU
   </a>
   
 </li>
@@ -648,15 +650,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#led" title="LED 指示灯" class="md-nav__link">
-    LED 指示灯
+  <a href="#led" title="LED指示灯" class="md-nav__link">
+    LED指示灯
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pmu" title="PMU 电源管理" class="md-nav__link">
-    PMU 电源管理
+  <a href="#pmu" title="PMU电源管理" class="md-nav__link">
+    PMU电源管理
   </a>
   
 </li>
@@ -694,16 +696,25 @@
 <p><center>
 <img alt="飞控系统组成" src="../pic/飞控系统组成.png" />
 </center></p>
-<p>飞行控制系统一般主要由主控单元、IMU（惯性测量单元）、GPS 指南针模块、LED 指示灯模块、PMU（电源管理模块）、IOSD 数据记忆模块等部件组成。IMU 是角速度以及加速度传感器，对飞行器的运动姿态进行侦测并反馈给主控。磁罗盘（指南针）是飞行器方向传感器，对飞行器的方向位置进行侦测并反馈给主控。主控正是在获得角速度、加速度、方向等姿态信息后，才能够对数据进行分析并最终保持了自身的平衡。而 GPS 是全球定位系统，能够确定飞行器所处的经纬度，最终保障飞行器能够实现定点悬停以及自动航线飞行。</p>
-<h2 id="_2">主控单元</h2>
+<p>飞行控制系统一般主要由<strong>主控</strong>单元、<strong>IMU</strong>（惯性测量单元）、<strong>GPS-指南针</strong>模块、<strong>LED指示灯</strong>模块、<strong>PMU</strong>（电源管理模块）、<strong>K-BOX</strong>数据记忆模块等部件组成。<br></p>
+<p>IMU 是角速度以及加速度传感器，对飞行器的运动姿态进行侦测并反馈给主控。<br />
+磁罗盘（指南针）是飞行器方向传感器，对飞行器的方向位置进行侦测并反馈给主控。<br />
+主控正是在获得角速度、加速度、方向等姿态信息后，才能够对数据进行分析并最终保持了自身的平衡。
+而 GPS 是全球定位系统，能够确定飞行器所处的经纬度，最终保障飞行器能够实现定点悬停以及自动航线飞行。</p>
+<h2 id="_2">主控</h2>
 <p>主控是整个飞行控制系统的核心，通过它将 IMU、GPS 指南针、遥控接收机等设备接入飞行控制系统从而实现飞行器的所有功能。除了辅助飞行控制以外，某些主控器还具备记录飞行数据的黑匣子功能，比如：DJI 的 Ace One。主控单元还能通过 USB 接口，进行飞行参数的调节和系统的固件升级。 </p>
-<h3 id="imu">IMU（惯性测量单元）</h3>
+<h3 id="imu">IMU</h3>
+<p>陀螺仪和加速度计</p>
 <h3 id="_3">气压计</h3>
 <h2 id="gps">GPS</h2>
 <h3 id="_4">磁罗盘模块</h3>
 <h2 id="_5">辅助性设备</h2>
-<h3 id="led">LED 指示灯</h3>
-<h3 id="pmu">PMU 电源管理</h3>
+<h3 id="led">LED指示灯</h3>
+<p><center>
+<img alt="LED" src="../pic/LED1.png" />
+<img alt="LED" src="../pic/LED2.png" />
+</center></p>
+<h3 id="pmu">PMU电源管理</h3>
 <h3 id="k-box">K-BOX</h3>
                 
                   
@@ -732,7 +743,7 @@
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
-                  后退
+                  上一页
                 </span>
                 飞机参数
               </span>
@@ -744,7 +755,7 @@
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
-                  前进
+                  下一页
                 </span>
                 飞行模式简介
               </span>
@@ -774,7 +785,7 @@
       
     </div>
     
-      <script src="../../assets/javascripts/application.d9aa80ab.js"></script>
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
       
         
         
@@ -783,10 +794,6 @@
           
             
               
-                <script src="../../assets/javascripts/lunr/tinyseg.js"></script>
-              
-              
-                <script src="../../assets/javascripts/lunr/lunr.jp.js"></script>
               
             
           
